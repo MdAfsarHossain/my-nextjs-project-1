@@ -1,12 +1,28 @@
-const CatchAllRoute = async ({params}: {params: Promise<{slug: string}>}) => {
-    // console.log(await params);
-    const {slug} = await params
+// const CatchAllRoute = async ({params}: {params: Promise<{slug: string}>}) => {
+//     console.log(await params);
+//     const {slug} = await params;
+    
+//     return (
+//         <div>
+//             <h1 className="text-4xl">Catch All Route Page ID: {slug}</h1>
+//         </div>
+//     );
+// };
+
+// export default CatchAllRoute;
+
+
+const CatchAllRoutePage = async ({params}: {params: Promise<{slug: string[]}>}) => {
+    console.log(await params);
+    const {slug} = await params;
+    console.log(slug);
+    
     
     return (
         <div>
-            <h1 className="text-4xl">Catch All Route Page ID: {slug}</h1>
+            <h1 className='text-4xl'>Catch All Route Page : {}</h1>
         </div>
     );
 };
 
-export default CatchAllRoute;
+export default CatchAllRoutePage;
