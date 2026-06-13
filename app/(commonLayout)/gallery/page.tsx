@@ -1,5 +1,6 @@
 import Image from 'next/image';
-import nextImage from '../../../assests/football.avif'
+// import nextImage from '../../../assests/football.avif'
+import nextImage from '@/assests/football.avif'
 
 const GalleryPage = () => {
     return (
@@ -22,8 +23,8 @@ const GalleryPage = () => {
 
                 <h1>Local Next JS Image Component</h1>
                 <Image 
-                // src={nextImage}
-                src='/football.avif'
+                src={nextImage}
+                // src='/football.avif'
                 alt='image'
                 width={500}
                 height={500}
