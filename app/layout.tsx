@@ -29,13 +29,13 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <Navbar />
+        {/* <Navbar /> */}
         <main className="min-h-dvh">
         {children}
         </main>
-        <footer className="text-center text-4xl my-5">
+        {/* <footer className="text-center text-4xl my-5">
           This is Footer Section
-        </footer>
+        </footer> */}
         </body>
     </html>
   );
