@@ -26,7 +26,7 @@ const ProductCard = ({ product }: { product: IProduct }) => {
           {product.brand}
         </p>
 
-        <h2 className="text-lg font-bold text-gray-800 line-clamp-2 min-h-[56px]">
+        <h2 className="text-lg font-bold text-gray-800 line-clamp-2 min-h-14">
           {product.product_name}
         </h2>
 
