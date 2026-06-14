@@ -4,6 +4,7 @@ import { IProduct } from '@/type';
 const ProductsPage = async () => {
   const res = await fetch('http://localhost:5000/products', {
     // cache: "force-cache"
+    // cache: "no-store"
     next: {
         revalidate: 30
         // tags: ['products']
