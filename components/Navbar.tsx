@@ -10,6 +10,7 @@ const Navbar = () => {
 
             <div className="flex justify-center items-center space-x-6">
                 <input className="bg-white rounded-2xl py-1 text-black px-2" placeholder="Search..."></input>
+                <Link href="/products" className="hover:text-gray-300">Products</Link>
                 <Link href="/about" className="hover:text-gray-300">About</Link>
                 <Link href="/contact" className="hover:text-gray-300">Contact</Link>
                 <Link href="/dashboard" className="hover:text-gray-300">Dashboard</Link>

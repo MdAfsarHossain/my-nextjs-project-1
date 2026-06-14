@@ -1,0 +1,88 @@
+{
+  "$schema": "./node_modules/json-server/schema.json",
+  "products": [
+  {
+    "id": 1,
+    "product_name": "Hydrating Face Serum",
+    "category": "Skincare",
+    "brand": "DermaGlow",
+    "price": 24.99,
+    "image": "https://preview.redd.it/16-pro-desert-titanium-wish-it-was-more-bronze-v0-cbaglh57u5qd1.jpeg?auto=webp&s=5500628536a3e708989638615eba1190c9b0c1d9"
+  },
+  {
+    "id": 2,
+    "product_name": "Vitamin C Brightening Cream",
+    "category": "Skincare",
+    "brand": "PureSkin",
+    "price": 29.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFyHd_KGDdphD3V6eXgtCwkiTuQim0-_82Dg&s"
+  },
+  {
+    "id": 3,
+    "product_name": "Matte Liquid Foundation",
+    "category": "Makeup",
+    "brand": "BeautyBlend",
+    "price": 19.99,
+    "image": "https://gizmodo.com/app/uploads/2024/09/iPhone-16-Glow-Time-event-18-1024x683.jpg"
+  },
+  {
+    "id": 4,
+    "product_name": "Waterproof Eyeliner",
+    "category": "Makeup",
+    "brand": "LuxeLook",
+    "price": 12.5,
+    "image": "https://gizmodo.com/app/uploads/2024/09/iPhone-16-Glow-Time-event-18-1024x683.jpg"
+  },
+  {
+    "id": 5,
+    "product_name": "Volumizing Mascara",
+    "category": "Makeup",
+    "brand": "LuxeLook",
+    "price": 15.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFyHd_KGDdphD3V6eXgtCwkiTuQim0-_82Dg&s"
+  },
+  {
+    "id": 6,
+    "product_name": "Aloe Vera Moisturizer",
+    "category": "Skincare",
+    "brand": "NatureCare",
+    "price": 18.75,
+    "image": "https://gizmodo.com/app/uploads/2024/09/iPhone-16-Glow-Time-event-18-1024x683.jpg"
+  },
+  {
+    "id": 7,
+    "product_name": "Rose Petal Toner",
+    "category": "Skincare",
+    "brand": "NatureCare",
+    "price": 14.99,
+    "image": "https://darlingretail.com/cdn/shop/files/iPhone_15_Pink_Pure_Back_iPhone_15_Pink_Pure_Front_2up_Screen__WWEN_cfd96ace-df87-4ab3-a96a-e8e9b13bb7b9_800x.jpg?v=1695104022"
+  },
+  {
+    "id": 8,
+    "product_name": "Long Stay Lipstick",
+    "category": "Makeup",
+    "brand": "ColorCharm",
+    "price": 11.99,
+    "image": "https://crdms.images.consumerreports.org/prod/products/cr/models/399694-smartphones-apple-iphone-11-10008711.png"
+  },
+  {
+    "id": 9,
+    "product_name": "Charcoal Face Wash",
+    "category": "Skincare",
+    "brand": "FreshGlow",
+    "price": 9.99,
+    "image": "https://media.wired.com/photos/692519679e17ba7d83580e45/master/w_1600%2Cc_limit/Samsung%2520Galaxy%2520S25%2520FE%2520SOURCE%2520Julian%2520Chokkattu11.png"
+  },
+  {
+    "id": 10,
+    "product_name": "Shimmer Highlighter Palette",
+    "category": "Makeup",
+    "brand": "BeautyBlend",
+    "price": 22.99,
+    "image": "https://www.mobiledokan.com/media/oneplus-turbo-6x-green-official-image.webp"
+  }
+],
+  "profile": {
+    "name": "typicode"
+  }
+}
