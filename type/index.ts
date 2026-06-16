@@ -6,3 +6,10 @@ export interface IProduct {
     price: string,
     image: string
 }
+
+export interface IPost {
+    userId: number,
+    id: number,
+    title: string,
+    body: string
+}

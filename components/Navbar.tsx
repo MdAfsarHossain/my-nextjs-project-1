@@ -17,6 +17,7 @@ const Navbar = () => {
             <div className="flex justify-center items-center space-x-6">
                 <input className="bg-white rounded-2xl py-1 text-black px-2" placeholder="Search..."></input>
                 <Link href="/products" className={pathname === '/products' ? "underline text-blue-800" : "hover:underline text-gray-100"}>Products</Link>
+                <Link href="/posts" className={pathname === '/posts' ? "underline text-blue-800" : "hover:underline text-gray-100"}>Posts</Link>
                 <Link href="/about" className={pathname === '/about' ? "underline text-blue-800" : "hover:text-gray-300"}>About</Link>
                 <Link href="/contact" className="hover:text-gray-300">Contact</Link>
                 <Link href="/dashboard" className="hover:text-gray-300">Dashboard</Link>
