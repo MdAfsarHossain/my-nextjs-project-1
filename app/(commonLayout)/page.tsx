@@ -1,4 +1,5 @@
 'use client'
+import { Button } from "@/components/ui/button";
 // import Link from "next/link";
 
 import { useRouter } from "next/navigation";
@@ -22,6 +23,7 @@ const HomePage = () => {
 
                 {/* OPTION: 2 */}
                 <button onClick={handleNavigation}>Dashboard</button>
+                <Button >ShadCn Button</Button>
             </div>
         </div>
     );
